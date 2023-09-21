@@ -1,0 +1,61 @@
+@import '/src/variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  background: $black;
+  @media (max-width: 1290px) {
+    font-size: 93.75%;
+  }
+  @media (max-width: 1000px) {
+    font-size: 87.50%;
+  }
+  @media (max-height: 650px) {
+    font-size: 93.75%;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+button, a {
+  cursor: poUbuntu;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #666666;
+  border-radius: 20px;
+}

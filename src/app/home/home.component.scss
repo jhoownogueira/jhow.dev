@@ -1,0 +1,17 @@
+section {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 80px);
+
+  img.left-planet-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  img.right-planet-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
